@@ -23,6 +23,9 @@ if has("mouse")
     set mouse=a
     set mousehide
 endif
+if has("syntax")
+    syntax on
+endif
 
 noremap <silent> <C-A> I<ESC>
 noremap <silent> <C-E> A<ESC>
