@@ -35,3 +35,7 @@ inoremap <silent> <C-E> <C-O>A
 
 cnoremap <C-A> <Home>
 cnoremap <C-E> <End>
+
+" Solarized theme.
+let g:solarized_termcolors=256
+colorscheme solarized
