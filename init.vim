@@ -61,4 +61,6 @@ inoremap <A-9> <C-O>9gt
 
 " Solarized theme.
 let g:solarized_termcolors=256
+let g:solarized_termtrans=0
+let g:solarized_degrade=1
 colorscheme solarized
