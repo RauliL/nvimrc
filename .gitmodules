@@ -43,3 +43,6 @@
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = git@github.com:klen/python-mode.git
