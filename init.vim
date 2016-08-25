@@ -56,6 +56,7 @@ Plug 'mattn/emmet-vim'
 Plug 'mhartington/oceanic-next'
 Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'rking/ag.vim'
+Plug 'ryanss/vim-hackernews'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'sheerun/vim-polyglot'
 Plug 'stephpy/vim-yaml'
@@ -66,7 +67,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-surround'
-Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline'
 
 call g:plug#end()
