@@ -22,10 +22,10 @@ set smartcase
 set softtabstop=4
 set synmaxcol=120
 set tabstop=4
+" set termguicolors
 set textwidth=79
 set wildignore=.o,.exe,.dll,.so,.class,.pyc
 set wildignorecase
-set wildmode=longest:full
 set wrapscan
 
 " Use silversearcher for :grep command.
@@ -33,6 +33,13 @@ if executable('ag')
   set grepprg=ag\ --nogroup\ --column\ --smart-case\ --nocolor\ --follow
   set grepformat=%f:%l:%c:%m
 endif
+
+" }}}
+
+" {{{ Plugin settings
+
+let g:tender_airline = 1
+let g:airline_theme = 'tender'
 
 " }}}
 
@@ -73,6 +80,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
 Plug 'zchee/deoplete-clang'
+Plug 'jacoborus/tender'
 
 call g:plug#end()
 
@@ -82,7 +90,7 @@ call g:plug#end()
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
 set t_Co=256
-colorscheme OceanicNext
-set background=dark
+colorscheme tender
+" set background=dark
 
 " }}}
