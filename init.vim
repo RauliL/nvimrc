@@ -23,6 +23,7 @@ set softtabstop=4
 set synmaxcol=120
 set tabstop=4
 set textwidth=79
+set wildignore=.o,.exe,.dll,.so,.class,.pyc
 set wildignorecase
 set wildmode=longest:full
 set wrapscan
