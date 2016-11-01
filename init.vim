@@ -10,6 +10,7 @@ set ignorecase
 set modeline
 set modelines=5
 set nobackup
+set nofoldenable
 set noswapfile
 set nowrap
 set number
