@@ -61,7 +61,6 @@ Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
 Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
 Plug 'jceb/vim-orgmode'
 Plug 'junegunn/limelight.vim'
-Plug 'klen/python-mode'
 Plug 'mattn/emmet-vim'
 Plug 'mhartington/oceanic-next'
 Plug 'moll/vim-node', { 'for': 'javascript' }
@@ -79,10 +78,8 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-jedi'
-Plug 'zchee/deoplete-clang'
 Plug 'jacoborus/tender'
+Plug 'w0rp/ale'
 
 call g:plug#end()
 
