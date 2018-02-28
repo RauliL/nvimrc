@@ -29,6 +29,9 @@ set wildignore=.o,.exe,.dll,.so,.class,.pyc
 set wildignorecase
 set wrapscan
 
+" Detect .plorth file extension as Plorth.
+au BufNewFile,BufRead *.plorth setf plorth
+
 " Use silversearcher for :grep command.
 if executable('ag')
   set grepprg=ag\ --nogroup\ --column\ --smart-case\ --nocolor\ --follow
