@@ -83,6 +83,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'jacoborus/tender'
 Plug 'w0rp/ale'
+Plug 'mhinz/vim-signify'
 
 call g:plug#end()
 
