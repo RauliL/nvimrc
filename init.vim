@@ -9,6 +9,7 @@ set expandtab
 set ignorecase
 set modeline
 set modelines=5
+set mouse=a
 set nobackup
 set nofoldenable
 set noswapfile
