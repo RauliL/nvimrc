@@ -85,6 +85,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'jacoborus/tender'
 Plug 'w0rp/ale'
 Plug 'mhinz/vim-signify'
+Plug 'tomasiser/vim-code-dark'
 
 call g:plug#end()
 
@@ -92,9 +93,6 @@ call g:plug#end()
 
 " Colors {{{
 
-let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
-set t_Co=256
-colorscheme tender
-" set background=dark
+colorscheme codedark
 
 " }}}
