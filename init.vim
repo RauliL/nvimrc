@@ -69,7 +69,6 @@ Plug 'mattn/emmet-vim'
 Plug 'mhartington/oceanic-next'
 Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'rking/ag.vim'
-Plug 'ryanss/vim-hackernews'
 Plug 'satyr/coco'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'sheerun/vim-polyglot'
