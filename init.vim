@@ -3,7 +3,7 @@
 " {{{ Options
 
 set concealcursor=nvci
-set conceallevel=2
+set conceallevel=0
 set cursorline
 set expandtab
 set ignorecase
