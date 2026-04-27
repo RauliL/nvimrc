@@ -3,7 +3,7 @@
 " {{{ Options
 
 set concealcursor=nvci
-set conceallevel=2
+set conceallevel=0
 set cursorline
 set expandtab
 set ignorecase
@@ -54,26 +54,15 @@ call g:plug#begin('~/.config/nvim/plugins')
 
 Plug 'benmills/vimux'
 Plug 'bogado/file-line'
-Plug 'chrisbra/NrrwRgn'
-Plug 'digitaltoad/vim-pug'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'gko/vim-coloresque'
-Plug 'gregsexton/gitv'
-Plug 'hail2u/vim-css3-syntax', { 'for': 'css' }
-Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
-Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
 Plug 'jceb/vim-orgmode'
 Plug 'junegunn/limelight.vim'
-Plug 'mattn/emmet-vim'
-Plug 'mhartington/oceanic-next'
 Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'rking/ag.vim'
-Plug 'ryanss/vim-hackernews'
-Plug 'satyr/coco'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'sheerun/vim-polyglot'
-Plug 'stephpy/vim-yaml'
 Plug 'svermeulen/vim-easyclip'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
