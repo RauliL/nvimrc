@@ -61,12 +61,17 @@ require("lazy").setup({
     "w0rp/ale",
 
     {
-      "tomasiser/vim-code-dark",
-      priority = 1000,
-      lazy = false,
+      "navarasu/onedark.nvim",
+      priority = 1000, -- make sure to load this before all the other start plugins
       config = function()
-        vim.cmd.colorscheme("codedark")
-      end,
+        require('onedark').setup {
+          style = 'darker'
+        }
+        require('onedark').load()
+      end
     },
+  },
+  rocks = {
+    hererocks = true,
   },
 })
