@@ -1,5 +1,6 @@
 if vim.pack and type(vim.pack.add) == "function" then
-  vim.pack.add({ 'https://github.com/nvim-mini/mini.nvim' })
+  vim.pack.add({ "https://github.com/nvim-mini/mini.nvim" })
+  vim.pack.add({ "https://github.com/ellisonleao/gruvbox.nvim" })
 else
   -- Bootstrap lazy.nvim
   local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -27,7 +28,8 @@ else
   -- Setup lazy.nvim
   require("lazy").setup({
     spec = {
-      { 'nvim-mini/mini.nvim', version = false },
+      { "nvim-mini/mini.nvim", version = false },
+      { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
     },
     -- Configure any other settings here. See the documentation for more details.
     -- colorscheme that will be used when installing plugins.
@@ -38,5 +40,8 @@ else
 end
 
 -- Some personal settings.
+vim.o.background = "dark"
 vim.o.number = true
 vim.o.ruler = true
+
+vim.cmd([[colorscheme gruvbox]])
