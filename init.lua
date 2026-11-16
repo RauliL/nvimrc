@@ -1,4 +1,4 @@
-if vim["pack"] ~= nil then
+if vim.pack and type(vim.pack.add) == "function" then
   vim.pack.add({ 'https://github.com/nvim-mini/mini.nvim' })
 else
   -- Bootstrap lazy.nvim
